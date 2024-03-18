@@ -41,7 +41,6 @@ Tasks
 
 ## Workflow Diagram
 
-```
 graph TD;
 
     CloneRepository --> SetRemote;
@@ -60,7 +59,7 @@ graph TD;
     PullRequest --> UpdateLocalRepository;
     UpdateLocalRepository --> RepeatProcess;
     RepeatProcess --> WorkOnFeature;
-```
+
 
 ## Contributing
 
