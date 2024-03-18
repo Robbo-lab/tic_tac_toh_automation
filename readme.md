@@ -41,7 +41,7 @@ Tasks
 
 ## Workflow Diagram
 ```mermaid
-graph TD;
+graph LR;
 
     CloneRepository --> SetRemote;
     SetRemote --> BranchingStrategy;
@@ -59,7 +59,7 @@ graph TD;
     PullRequest --> UpdateLocalRepository;
     UpdateLocalRepository --> RepeatProcess;
     RepeatProcess --> WorkOnFeature;
-
+```
 
 ## Contributing
 
