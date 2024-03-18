@@ -25,7 +25,6 @@ python main.py
 Follow the prompts to enter row and column numbers to make your moves.
 
 ## Documentation
-Full documentation at: [Tic Tac Toh Docs]([https://github.com](https://robbozinoz.github.io/tic_tac_toe_docs/))
 
 | Method                | Description                                     |
 | --------------------- | ----------------------------------------------- |
@@ -34,7 +33,7 @@ Full documentation at: [Tic Tac Toh Docs]([https://github.com](https://robbozino
 | `tally_wins(results)` | Tally the number of wins from a list of results |
 | `main()`              | Controls the Tic-Tac-Toe game                   |
 
-Tasks
+## Tasks
 [] Implement basic game functionality
 [] Add win condition checks
 [] Handle invalid input gracefully
@@ -74,5 +73,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Create a new Pull Request
 
 ```
-
+[Tic Tac Toh Docs]([https://github.com](https://robbozinoz.github.io/tic_tac_toe_docs/))
 ```
