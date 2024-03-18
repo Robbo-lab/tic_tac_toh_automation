@@ -19,7 +19,7 @@ class TestTicTacToe(unittest.TestCase):
 
         board_win_O = [['X', 'O', 'O'],
                        ['X', 'O', ' '],
-                       [' ', 'X', ' ']]
+                       ['O', 'X', ' ']]
         self.assertTrue(is_win('O', board_win_O))
 
         board_no_win = [['X', 'O', 'O'],
