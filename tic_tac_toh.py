@@ -1,18 +1,20 @@
-# Fixed the win condition checks in the is_win function. Changed not all to all to properly check for winning conditions.
-# Corrected the diagonal win condition in the is_win function. Changed board[1][0] to board[0][0].
-# Added an explicit return False statement at the end of the is_win function to handle cases where no win condition is met.
-# Wrapped the input reading in a try-except block to handle invalid input (e.g., non-integer input) gracefully.
-# Added an except IndexError block to handle cases where the user enters row and column values outside the range (0-2).
-
 board = [[' ' for _ in range(3)] for _ in range(3)]
 
 def print_board():
+    '''Prints the Tic-Tac-Toe board'''
     for row in board:
         print('|'.join(row))
         print('-' * 5)
 
 def is_win(player):
-    '''Check rows, columns, and diagonals for win condition for a given player'''
+    '''Checks rows, columns, and diagonals for win condition for a given player
+    
+    Parameters:
+    - player: str - The player ('X' or 'O') to check for win
+    
+    Returns:
+    - bool: True if the player wins, False otherwise
+    '''
     for i in range(3):
         if all([cell == player for cell in board[i]]):  # Fixed: Changed 'not all' to 'all'
             return True
@@ -24,9 +26,18 @@ def is_win(player):
     return False  # Fixed: Added explicit return False if no win condition is met
 
 def tally_wins(results):
+    '''Tally the number of wins from a list of results
+    
+    Parameters:
+    - results: list - List of boolean results indicating win (True) or loss (False)
+    
+    Returns:
+    - int: Total number of wins
+    '''
     return sum(results)
 
 def main():
+    '''Main function to control the Tic-Tac-Toe game'''
     current_player = 'X'
     moves = 0
     results = []
