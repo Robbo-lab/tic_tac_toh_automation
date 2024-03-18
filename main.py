@@ -6,24 +6,33 @@ def print_board():
         print('|'.join(row))
         print('-' * 5)
 
-def is_win(player):
-    '''Checks rows, columns, and diagonals for win condition for a given player
+def is_win(player, board):
+    '''Check rows, columns, and diagonals for win condition for a given player
     
     Parameters:
     - player: str - The player ('X' or 'O') to check for win
+    - board: list[list[str]] - The game board
     
     Returns:
     - bool: True if the player wins, False otherwise
     '''
-    for i in range(3):
-        if all([cell == player for cell in board[i]]):  # Fixed: Changed 'not all' to 'all'
+    # Check rows
+    for row in board:
+        if all(cell == player for cell in row):
             return True
-        if all([board[j][i] == player for j in range(3)]):  # Fixed: Changed 'not all' to 'all'
+
+    # Check columns
+    for col in range(3):
+        if all(row[col] == player for row in board):
             return True
-    if board[0][0] == board[1][1] == board[2][2] == player or \
-       board[0][2] == board[1][1] == board[2][0] == player:  # Fixed: Changed 'board[1][0]' to 'board[0][0]'
+
+    # Check diagonals
+    if all(board[i][i] == player for i in range(3)) or \
+       all(board[i][2 - i] == player for i in range(3)):
         return True
-    return False  # Fixed: Added explicit return False if no win condition is met
+
+    return False
+
 
 def tally_wins(results):
     '''Tally the number of wins from a list of results
