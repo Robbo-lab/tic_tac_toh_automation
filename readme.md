@@ -34,12 +34,14 @@ Follow the prompts to enter row and column numbers to make your moves.
 | `main()`              | Controls the Tic-Tac-Toe game                   |
 
 ## Tasks
+
 [] Implement basic game functionality
 [] Add win condition checks
 [] Handle invalid input gracefully
 [] Implement AI for single-player mode (optional)
 
 ## Workflow Diagram
+
 ```mermaid
 graph LR;
 
@@ -72,6 +74,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Push to the branch (git push origin feature/new-feature)
 - Create a new Pull Request
 
-```
-[Tic Tac Toh Docs]([https://github.com](https://robbozinoz.github.io/tic_tac_toe_docs/))
-```
+[Documentation](https://robbozinoz.github.io/tic_tac_toe_docs/)
