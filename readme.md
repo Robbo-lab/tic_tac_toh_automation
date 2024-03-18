@@ -33,6 +33,8 @@ Follow the prompts to enter row and column numbers to make your moves.
 | `tally_wins(results)` | Tally the number of wins from a list of results |
 | `main()`              | Controls the Tic-Tac-Toe game                   |
 
+Full documentation at: [Tic Tac Toh Docs]([https://github.com](https://robbozinoz.github.io/tic_tac_toe_docs/))
+
 Tasks
 [] Implement basic game functionality
 [] Add win condition checks
