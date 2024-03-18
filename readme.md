@@ -33,6 +33,8 @@ Follow the prompts to enter row and column numbers to make your moves.
 | `tally_wins(results)` | Tally the number of wins from a list of results |
 | `main()`              | Controls the Tic-Tac-Toe game                   |
 
+[Documentation](https://robbozinoz.github.io/tic_tac_toe_docs/)
+
 ## Tasks
 
 [] Implement basic game functionality
@@ -73,5 +75,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Commit your changes (git commit -am 'Add new feature')
 - Push to the branch (git push origin feature/new-feature)
 - Create a new Pull Request
-
-[Documentation](https://robbozinoz.github.io/tic_tac_toe_docs/)
