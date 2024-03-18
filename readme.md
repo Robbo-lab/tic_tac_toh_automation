@@ -40,7 +40,7 @@ Tasks
 [] Implement AI for single-player mode (optional)
 
 ## Workflow Diagram
-
+```
 graph TD;
 
     CloneRepository --> SetRemote;
@@ -59,7 +59,7 @@ graph TD;
     PullRequest --> UpdateLocalRepository;
     UpdateLocalRepository --> RepeatProcess;
     RepeatProcess --> WorkOnFeature;
-
+```
 
 ## Contributing
 
