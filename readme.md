@@ -75,3 +75,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 - Commit your changes (git commit -am 'Add new feature')
 - Push to the branch (git push origin feature/new-feature)
 - Create a new Pull Request
+
+Last updated 20th March 2025
