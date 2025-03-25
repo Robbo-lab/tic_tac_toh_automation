@@ -39,10 +39,10 @@ Follow the prompts to enter row and column numbers to make your moves.
 
 ## Tasks
 
-[ ] Implement basic game functionality
-[ ] Add win condition checks
-[ ] Handle invalid input gracefully
-[ ] Implement AI for single-player mode (optional)
+- [ ] Implement basic game functionality
+- [ ] Add win condition checks
+- [ ] Handle invalid input gracefully
+- [ ] Implement AI for single-player mode (optional)
 
 ## Workflow Diagram
 
