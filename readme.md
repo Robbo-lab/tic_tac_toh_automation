@@ -2,6 +2,8 @@
 
 This is a simple command-line implementation of the Tic-Tac-Toe game written in Python.
 
+Updated 25/3/2025.
+
 ## Table of Contents
 
 - [Overview](#overview)
